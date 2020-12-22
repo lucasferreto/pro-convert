@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/11/01 08:09:57.000.445,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/11/01 08:09:57.000.529,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/11/01 08:09:57.000.609,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/11/11 16:04:27.000.496,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/02/15 00:29:48.000.302,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/02/15 19:59:59.000.123,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/02/15 20:02:50.000.163,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/02/24 16:06:15.000.352,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/03/19 13:00:43.000.527,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/04/06 21:20:35.000.080,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/04/20 12:32:39.000.041,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/06/15 11:10:37.000.420,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/06/15 11:12:32.000.330,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/06/22 22:59:58.000.942,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/06/22 23:00:28.000.624,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/08/17 13:27:26.000.341,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2018/08/17 13:28:24.000.564,=G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/08/17 13:37:26.000.757,G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.dfm=G:\Projetos\Replicador\View\FrmMenu.dfm</Transaction>
+    <Transaction>2018/08/17 13:37:26.000.757,G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Unit5.pas=G:\Projetos\Replicador\View\FrmMenu.pas</Transaction>
+    <Transaction>2018/08/17 13:37:38.000.969,G:\Usuário\Nova pasta (2)\Embarcadero\Studio\Projects\Project3.dproj=G:\Projetos\Replicador\PjReplicador.dproj</Transaction>
+    <Transaction>2018/08/17 13:38:30.000.341,G:\Projetos\Replicador\View\FrmMenu.dfm=G:\Projetos\Replicador\View\UFrmMenu.dfm</Transaction>
+    <Transaction>2018/08/17 13:38:30.000.341,G:\Projetos\Replicador\View\FrmMenu.pas=G:\Projetos\Replicador\View\UFrmMenu.pas</Transaction>
+    <Transaction>2018/08/17 13:38:56.000.737,=G:\Projetos\Replicador\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 13:40:54.000.458,G:\Projetos\Replicador\Unit1.pas=G:\Projetos\Replicador\View\View.Conexao.pas</Transaction>
+    <Transaction>2018/08/17 13:40:54.000.458,G:\Projetos\Replicador\Unit1.dfm=G:\Projetos\Replicador\View\View.Conexao.dfm</Transaction>
+    <Transaction>2018/08/17 13:41:04.000.242,G:\Projetos\Replicador\View\UFrmMenu.pas=G:\Projetos\Replicador\View\View.Menu.pas</Transaction>
+    <Transaction>2018/08/17 13:41:04.000.242,G:\Projetos\Replicador\View\UFrmMenu.dfm=G:\Projetos\Replicador\View\View.Menu.dfm</Transaction>
+    <Transaction>2018/08/17 13:42:34.000.068,=G:\Projetos\Replicador\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 21:18:01.000.879,=G:\Projetos\Replicador\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 21:40:45.000.126,G:\Projetos\Replicador\Unit1.pas=G:\Projetos\Replicador\View\View.Replicadora.pas</Transaction>
+    <Transaction>2018/08/17 21:40:45.000.126,G:\Projetos\Replicador\Unit1.dfm=G:\Projetos\Replicador\View\View.Replicadora.dfm</Transaction>
+    <Transaction>2018/08/26 19:05:29.000.347,=G:\Projetos\Replicador\Unit1.pas</Transaction>
+    <Transaction>2018/08/30 13:28:31.000.934,=G:\Projetos\Replicador\ModelSupport_PjReplicador\default.txaPackage</Transaction>
+    <Transaction>2018/08/30 13:28:42.000.335,=G:\Projetos\Replicador\ModelSupport_PjReplicador\default.txvpck</Transaction>
+    <Transaction>2018/08/30 13:28:43.000.913,=G:\Projetos\Replicador\ModelSupport_PjReplicador\PjReplicador\default.txvpck</Transaction>
+    <Transaction>2018/11/17 15:12:52.000.352,=C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Unit1.pas</Transaction>
+    <Transaction>2018/11/17 15:14:21.000.018,=C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Unit2.pas</Transaction>
+    <Transaction>2018/11/17 15:22:18.000.490,C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Model\Model.DMRest.dfm=C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Unit2.dfm</Transaction>
+    <Transaction>2018/11/17 15:22:18.000.490,C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Model\Model.DMRest.pas=C:\Users\Josias Pereira\Documents\Desenvolvimento\Delphi\Projetos Oficiais\Replicador\Unit2.pas</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.547,C:\Projetos\Sistemas\Replicador\Replicador\ProConvert.dproj=C:\Projetos\Sistemas\Replicador\Replicador\PjReplicador.dproj</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.880,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.922,c:\projetos\sistemas\replicador\replicador\modelsupport_pjreplicador\pjreplicador\default.txvpck=</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.861,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.863,c:\projetos\sistemas\replicador\replicador\modelsupport_pjreplicador\default.txvpck=</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.939,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\PjReplicador\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:24:24.000.836,c:\projetos\sistemas\replicador\replicador\modelsupport_pjreplicador\default.txapackage=</Transaction>
+    <Transaction>2020/07/27 12:25:32.000.936,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Replicadora\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:32.000.893,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:34.000.998,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\Model\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:34.000.952,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Menu\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:34.000.704,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Conexao\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:35.000.985,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\Model\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:25:35.000.240,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\ProConvert\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:35.000.890,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Menu\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:25:35.000.943,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Conexao\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:25:35.000.115,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\Model\DMRest\default.txvpck</Transaction>
+    <Transaction>2020/07/27 12:25:36.000.028,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\View\Replicadora\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:25:36.000.144,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\ProConvert\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 12:25:36.000.081,=C:\Projetos\Sistemas\Replicador\Replicador\ModelSupport_ProConvert\Model\DMRest\default.txaPackage</Transaction>
+    <Transaction>2020/07/27 16:03:41.480,=C:\Projetos\Sistemas\Replicador\Replicador\Unit1.pas</Transaction>
+    <Transaction>2020/07/27 16:09:34.519,C:\Projetos\Sistemas\Replicador\Replicador\uFrmSplash.pas=C:\Projetos\Sistemas\Replicador\Replicador\Unit1.pas</Transaction>
+    <Transaction>2020/07/27 16:09:34.519,C:\Projetos\Sistemas\Replicador\Replicador\uFrmSplash.dfm=C:\Projetos\Sistemas\Replicador\Replicador\Unit1.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AVD_for_Nexus_9_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>

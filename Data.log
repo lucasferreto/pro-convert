@@ -1,0 +1,61 @@
+¨*P¨*PRMReplicador: TFRMReplicador
+  Left = 0
+  Top = 0
+  ActiveControl = ButtonTested
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'FRMReplicador'
+  ClientHeight = 650
+  ClientWidth = 947
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  Pixel
+
+
+*************** Start Log 20/08/2018 13:59:22 ***************
+
+[FireDAC][Phys][FB]-339. A meta data argument [table name] value must be specified
+
+
+
+*************** End Log 20/08/2018 13:59:22 ***************
+
+
+
+*************** Start Log 20/08/2018 13:59:42 ***************
+
+          **********  No Errors Logged **********
+
+*************** End Log 20/08/2018 13:59:42 ***************
+
+
+
+*************** Start Log 20/08/2018 14:00:03 ***************
+
+          **********  No Errors Logged **********
+
+*************** End Log 20/08/2018 14:00:03 ***************
+
+
+
+*************** Start Log 20/08/2018 14:00:12 ***************
+
+[FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -607
+Invalid command
+Specified domain or source column INT64 does not exist
+
+CREATE TABLE ACESSOD (
+  CODIGO INT64 NOT NULL,
+  DATAHORALOCAL TIMESTAMP NOT NULL,
+  NFCE INT64 NOT NULL,
+  CODIGOSTATUS SMALLINT NOT NULL,
+  MOTIVO VARCHAR(255) NOT NULL
+)
+
+*************** End Log 20/08/2018 14:00:12 ***************

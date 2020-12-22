@@ -1,0 +1,74 @@
+unit Model.DMRest;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, IPPeerClient, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, REST.Response.Adapter, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, REST.Client, Data.Bind.Components,
+  Data.Bind.ObjectScope, Vcl.ExtCtrls;
+
+type
+  TDMRest = class(TDataModule)
+    RESTClient1: TRESTClient;
+    RESTRequest1: TRESTRequest;
+    RESTResponse1: TRESTResponse;
+    FDMemTable1: TFDMemTable;
+    RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter;
+    TimerLicenca: TTimer;
+    procedure DataModuleCreate(Sender: TObject);
+    procedure TimerLicencaTimer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure RequesteDate;
+
+    var LicendaDatavencida: boolean;
+  end;
+
+var
+  DMRest: TDMRest;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TDMRest }
+
+procedure TDMRest.DataModuleCreate(Sender: TObject);
+begin
+  LicendaDatavencida := False;
+  RequesteDate;
+end;
+
+procedure TDMRest.RequesteDate;
+var
+  DataAtual   : TDate;
+  DataFinal   : TDate;
+  StringDate  : String;
+begin
+  DataFinal := StrToDate('17/11/2018');
+
+  RESTRequest1.Execute;
+
+  StringDate := Copy(FDMemTable1.FieldByName('currentDateTime').AsString,1,10);
+  DataAtual :=   StrToDate(StringDate);
+
+  if DataAtual>=DataFinal then
+    LicendaDatavencida := True
+  else
+    LicendaDatavencida := False;
+
+
+end;
+
+procedure TDMRest.TimerLicencaTimer(Sender: TObject);
+begin
+  TThread.CreateAnonymousThread(RequesteDate).start();
+end;
+
+end.

@@ -1,0 +1,16 @@
+program PjReplicador;
+
+uses
+  Vcl.Forms,
+  View.Menu in 'View\View.Menu.pas' {FRMMenu},
+  View.Conexao in 'View\View.Conexao.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFRMMenu, FRMMenu);
+  Application.Run;
+end.

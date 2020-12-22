@@ -1,0 +1,88 @@
+unit View.Conexao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls,
+  Vcl.ComCtrls, System.ImageList, Vcl.ImgList;
+
+type
+  TFRMConexaoConfig = class(TForm)
+    Panel1: TPanel;
+    BitBtnAvancar: TBitBtn;
+    BitBtn2: TBitBtn;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    Label1: TLabel;
+    EditUsuario: TEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    EditSenha: TEdit;
+    Label4: TLabel;
+    EditServidor: TEdit;
+    Label5: TLabel;
+    EditPorta: TEdit;
+    Label6: TLabel;
+    OpenDialogDb: TOpenDialog;
+    ImageList1: TImageList;
+    EditBAnco: TEdit;
+    BitBtnBucaBanco: TBitBtn;
+    ComboBoxDriver: TComboBox;
+    BitBtn1: TBitBtn;
+    procedure BitBtnBucaBancoClick(Sender: TObject);
+    procedure BitBtnAvancarClick(Sender: TObject);
+  private
+    FTipoConexao: string;
+    procedure SetTipoConexao(const Value: string);
+    { Private declarations }
+  public
+    { Public declarations }
+    {tela seta se é conexao de origem ou destino}
+    property TipoConexao: string read FTipoConexao write SetTipoConexao;
+  end;
+
+var
+  FRMConexaoConfig: TFRMConexaoConfig;
+
+implementation
+
+{$R *.dfm}
+
+uses View.Replicadora;
+
+
+
+procedure TFRMConexaoConfig.BitBtnAvancarClick(Sender: TObject);
+begin
+  with  FRMReplicador.ClientDataSetConfConexao do
+  begin
+    Append;
+    FieldByName('DRIVER').AsString := ComboBoxDriver.Text;
+    FieldByName('BANCO').AsString := EditBAnco.Text;
+    FieldByName('USUARIO').AsString := EditUsuario.Text;
+    FieldByName('SENHA').AsString := EditSenha.Text;
+    FieldByName('SERVIDOR').AsString := EditServidor.Text;
+    FieldByName('PORTA').AsString := EditPorta.Text;
+    FieldByName('TIPO').AsString := TipoConexao;
+    Post;
+  end;
+end;
+
+procedure TFRMConexaoConfig.BitBtnBucaBancoClick(Sender: TObject);
+begin
+  if OpenDialogDb.Execute then
+     EditBAnco.Text := OpenDialogDb.FileName;
+end;
+
+procedure TFRMConexaoConfig.SetTipoConexao(const Value: string);
+begin
+  FTipoConexao := Value;
+
+  if FTipoConexao= 'O' then
+    Self.Caption := 'Conexão de origem dos dados'
+  else
+    Self.Caption := 'Conexão de destino dos dados'
+end;
+
+end.

@@ -1,0 +1,23 @@
+program PjReplicador;
+
+uses
+  Vcl.Forms,
+  View.Menu in 'View\View.Menu.pas' {FRMMenu},
+  View.Conexao in 'View\View.Conexao.pas' {FRMConexaoConfig},
+  View.Replicadora in 'View\View.Replicadora.pas' {FRMReplicador},
+  Vcl.Themes,
+  Vcl.Styles,
+  Model.DMRest in 'Model\Model.DMRest.pas' {DMRest: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Carbon');
+  Application.CreateForm(TFRMReplicador, FRMReplicador);
+  Application.CreateForm(TFRMConexaoConfig, FRMConexaoConfig);
+  Application.CreateForm(TFRMMenu, FRMMenu);
+  Application.CreateForm(TDMRest, DMRest);
+  Application.Run;
+end.
